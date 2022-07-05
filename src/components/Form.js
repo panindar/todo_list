@@ -42,12 +42,6 @@ const Form = ({ input, setInput, todos, setTodos, edittodo, setEdittodo }) => {
                 onChange={onInputChange}
             />
             <button className="button-add" type="submit">{edittodo ? "OK" : "ADD"}</button>
-            <Helmet>
-                <div class="share_fm_dl_sm" id="attachment_poi"></div>
-                <script type="text/javascript" src="https://services.digitallocker.gov.in/requester/api/2/dl.js" id="dlshare"
-                    data-app-id="866FD557" data-app-hash="getHash()" time-stamp="getTimestamps()" data-callback="getData(res)">
-                </script>
-            </Helmet>
         </form >
     )
 }
